@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineStream - Films & Séries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎬</span>
+                CineStream
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#films" class="nav-link">Films</a></li>
+                <li><a href="#series" class="nav-link">Séries</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-btn">Se connecter</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="word">Découvrez</span>
+                <span class="word">Votre</span>
+                <span class="word">Divertissement</span>
+                <span class="word">Préféré</span>
+            </h1>
+            <p class="hero-subtitle">Des milliers de films et séries en streaming illimité</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Commencer</button>
+                <button class="btn btn-secondary">En savoir plus</button>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-card card-1">
+                <div class="card-content">🍿</div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="card-content">🎭</div>
+            </div>
+            <div class="floating-card card-3">
+                <div class="card-content">🚀</div>
+            </div>
+            <div class="floating-card card-4">
+                <div class="card-content">😱</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Films Section -->
+    <section id="films" class="content-section">
+        <h2 class="section-title">Films <span>Populaires</span></h2>
+        <div class="carousel-container">
+            <div class="carousel" id="filmsCarousel">
+                <!-- Blockbusters Récents -->
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/kDp1vKThbjZCervQs1agFhrXWkV.jpg" alt="Oppenheimer" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Oppenheimer</h3>
+                        <p class="year">2023</p>
+                        <p class="rating">⭐ 8.4/10</p>
+                        <p class="genre">Drame, Histoire</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/9cQgHK3QkD1G7g7d6MyymEnYUwp.jpg" alt="Killers of the Flower Moon" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Killers of the Flower Moon</h3>
+                        <p class="year">2023</p>
+                        <p class="rating">⭐ 8.0/10</p>
+                        <p class="genre">Drame, Historique</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/8cd2QvQzoundertale.jpg" alt="Barbie" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Barbie</h3>
+                        <p class="year">2023</p>
+                        <p class="rating">⭐ 7.9/10</p>
+                        <p class="genre">Comédie, Fantaisie</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/pFlaoHTZeyNkG83vxsAJiGzfSi.jpg" alt="Inception" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Inception</h3>
+                        <p class="year">2010</p>
+                        <p class="rating">⭐ 8.8/10</p>
+                        <p class="genre">Sci-Fi, Thriller</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/9gk7adHYeDMNNGP-0ev6material.jpg" alt="The Dark Knight" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>The Dark Knight</h3>
+                        <p class="year">2008</p>
+                        <p class="rating">⭐ 9.0/10</p>
+                        <p class="genre">Action, Crime</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/rjQY0r7QB4LeKEGW4Y1sQyGMKns.jpg" alt="Avengers Endgame" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Avengers:  Endgame</h3>
+                        <p class="year">2019</p>
+                        <p class="rating">⭐ 8.4/10</p>
+                        <p class="genre">Action, Aventure</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" onclick="scrollCarousel('filmsCarousel', -300)">❮</button>
+            <button class="carousel-btn next" onclick="scrollCarousel('filmsCarousel', 300)">❯</button>
+        </div>
+    </section>
+
+    <!-- Séries Section -->
+    <section id="series" class="content-section">
+        <h2 class="section-title">Séries <span>Tendances</span></h2>
+        <div class="carousel-container">
+            <div class="carousel" id="seriesCarousel">
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/3z7ncLgYeRnL9ZzR5NkYRYMAapZ.jpg" alt="Breaking Bad" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Breaking Bad</h3>
+                        <p class="year">2008-2013</p>
+                        <p class="rating">⭐ 9.5/10</p>
+                        <p class="genre">Drame, Crime</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/49WBc0Om1gvN07c8AVJwY24SGXZ.jpg" alt="Stranger Things" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Stranger Things</h3>
+                        <p class="year">2016-Présent</p>
+                        <p class="rating">⭐ 8.7/10</p>
+                        <p class="genre">Sci-Fi, Horreur</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/oTLXan5Z6yousefAriI205NX9Jg.jpg" alt="The Crown" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>The Crown</h3>
+                        <p class="year">2016-2023</p>
+                        <p class="rating">⭐ 8.6/10</p>
+                        <p class="genre">Drame, Historique</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/oUJjjksSGlZK8P2Q79jicJl0aT5.jpg" alt="Game of Thrones" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Game of Thrones</h3>
+                        <p class="year">2011-2019</p>
+                        <p class="rating">⭐ 9.2/10</p>
+                        <p class="genre">Drame, Fantaisie</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/lhYy1z3dt33GJNGeHP0qKRmHqSL.jpg" alt="The Office" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>The Office</h3>
+                        <p class="year">2005-2013</p>
+                        <p class="rating">⭐ 9.0/10</p>
+                        <p class="genre">Comédie</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image-wrapper">
+                        <img src="https://image.tmdb.org/t/p/w400/8GxjqTQi40CFq8MgJbAGX9mKwxL.jpg" alt="The Witcher" class="movie-image">
+                        <div class="play-overlay">
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>The Witcher</h3>
+                        <p class="year">2019-Présent</p>
+                        <p class="rating">⭐ 8.2/10</p>
+                        <p class="genre">Fantaisie, Action</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" onclick="scrollCarousel('seriesCarousel', -300)">❮</button>
+            <button class="carousel-btn next" onclick="scrollCarousel('seriesCarousel', 300)">❯</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Restons en <span>Contact</span></h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Votre message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 CineStream. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="#">Politique de Confidentialité</a>
+                <a href="#">Conditions d'Utilisation</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
